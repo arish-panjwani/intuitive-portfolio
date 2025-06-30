@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react"
 
 export function usePortfolioSettings() {
-  const [darkMode, setDarkMode] = useState(true)
+  const [darkMode, setDarkMode] = useState(false)
   const [optimized, setOptimized] = useState(false)
 
   useEffect(() => {
-    const isDark = localStorage.getItem("darkMode") === "true"
+    const isDark = localStorage.getItem("darkMode") === "true"  || localStorage.getItem("darkMode") === null
     const isOptimized = localStorage.getItem("optimized") === "true"
     setDarkMode(isDark)
     setOptimized(isOptimized)
