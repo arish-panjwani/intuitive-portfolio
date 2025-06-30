@@ -1,0 +1,525 @@
+{
+  "personal": {
+    "name": "Arish Panjwani",
+    "pronouns": "(He/Him)",
+    "title": "Data Analyst | Full Stack Developer",
+    "tagline": "🚀 Debugging Life",
+    "subtagline": "One Line at a Time!",
+    "subtitle": "Code → Build → Break → Fix → Repeat",
+    "description": "Toronto-based developer blending full-stack magic with machine learning ✨",
+    "location": "Toronto, Canada",
+    "email": "panjwaniarish@gmail.com",
+    "phone": "+1 (416) 316-2396",
+    "github": "https://github.com/arish-panjwani",
+    "linkedin": "https://linkedin.com/in/arish-panjwani",
+    "portfolio": "https://arishpanjwani.dev",
+    "resumeUrl": "https://drive.usercontent.google.com/u/0/uc?id=1F70qvGZ7PLVbNsHxF3t8y2oAvmOM5krQ&export=download"
+  },
+  "about": {
+    "intro": "I’m a full-stack developer with a passion for AI, ML, and scalable software solutions.",
+    "greeting": "Hi, I'm Arish – React Native Developer turned AI Explorer 🚀",
+    "description": "Over 3+ years of experience in full-stack development, I've built everything from mobile apps to web platforms. Now I'm diving deep into the exciting world of AI & Data Science, combining my development expertise with machine learning to create intelligent solutions.",
+    "badges": [
+      {
+        "text": "Full-Stack Developer",
+        "color": "blue"
+      },
+      {
+        "text": "Data Scientist",
+        "color": "purple"
+      },
+      {
+        "text": "AI/ML Engineer",
+        "color": "yellow"
+      },
+      {
+        "text": "Tech Innovator",
+        "color": "green"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Ontario College Graduate Certificate in AI and Data Science",
+      "institution": "Loyalist College",
+      "location": "Toronto, ON",
+      "period": "Apr 2024 – Present",
+      "status": "current",
+      "website": "https://loyalistcollege.com/lcit/"
+    },
+    {
+      "degree": "Bachelor of Engineering in Computer Science",
+      "institution": "Dr. D. Y. Patil School of Engg. & Tech.",
+      "location": "India",
+      "period": "Apr 2015 – Dec 2020",
+      "status": "completed",
+      "website": "https://dypsoet.in/"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Development Engineer 1",
+      "company": "Easy Platform Services Pvt. Ltd.",
+      "location": "Mumbai, India",
+      "period": "Apr 2023 – Apr 2024",
+      "type": "full-time",
+      "website": "https://www.getzype.com/",
+      "achievements": [
+        "Built 10+ scalable features across platforms using TypeScript and Node.js; boosted user retention by 12% QoQ",
+        "Automated reporting workflows using Python and SQL, reducing effort by 6+ hours weekly and errors by 80%",
+        "Integrated third-party APIs and optimized backend response time by 20%, improving performance for high-volume endpoints",
+        "Mentored 2 junior developers and led code reviews to ensure code quality and maintainability"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Tradebulls Securities Pvt. Ltd.",
+      "location": "Mumbai, India",
+      "period": "Dec 2020 – Mar 2023",
+      "type": "full-time",
+      "website": "https://tradebulls.in",
+      "achievements": [
+        "Developed a React Native app with 100K+ downloads; improved performance & cut load time by 30% and crash rate by 25%",
+        "Automated backend data pipelines using Python and SQL, cutting manual report generation time by 40%",
+        "Used Git, Docker, and JIRA in Agile sprints, resolving 15+ tickets per sprint with a 95% QA pass rate",
+        "Improved real-time trading features, resulting in 18% higher user engagement"
+      ]
+    },
+    {
+      "title": "Culinary Team Member",
+      "company": "Impact Kitchen",
+      "location": "Toronto, ON",
+      "period": "May 2024 – Present",
+      "type": "part-time",
+      "website": "https://impactkitchen.ca",
+      "achievements": ["Part-time role while pursuing AI & Data Science education"]
+    },
+    {
+      "title": "Elections Poll Official",
+      "company": "Elections Ontario",
+      "location": "Toronto, ON",
+      "period": "Feb 2025",
+      "type": "seasonal",
+      "website": "https://elections.on.ca",
+      "achievements": ["Seasonal position supporting democratic processes in Ontario"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "LANversation",
+      "description": "Encrypted LAN Chat App built with Flask and Vanilla JS",
+      "tech": ["Flask", "JavaScript", "Socket.IO", "Encryption"],
+      "icon": "Globe",
+      "color": "from-blue-500 to-cyan-500",
+      "github": "https://github.com/arish-panjwani/LANversation",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "ai-loan-predictor",
+      "description": "Loan Eligibility ML Model with Flask API",
+      "tech": ["Python", "Flask", "Scikit-learn", "ML"],
+      "icon": "Brain",
+      "color": "from-purple-500 to-pink-500",
+      "github": "https://github.com/arish-panjwani/ai-loan-predictor",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "sales_prediction_api",
+      "description": "Sales prediction via linear regression, deployed with Docker",
+      "tech": ["Python", "Docker", "Linear Regression", "API"],
+      "icon": "Database",
+      "color": "from-green-500 to-emerald-500",
+      "github": "https://github.com/arish-panjwani/sales_prediction_api",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "model-deployment-dashboard",
+      "description": "ML API Testing Dashboard built with Next.js and TypeScript",
+      "tech": ["Next.js", "TypeScript", "React", "Dashboard"],
+      "icon": "Code",
+      "color": "from-orange-500 to-red-500",
+      "github": "https://github.com/arish-panjwani/model-deployment-dashboard",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "ai-personal-finance-tracker",
+      "description": "AI-powered budget tracker with JWT auth and analytics",
+      "tech": ["React", "Node.js", "JWT", "AI"],
+      "icon": "Zap",
+      "color": "from-yellow-500 to-orange-500",
+      "github": "https://github.com/arish-panjwani/ai-personal-finance-tracker",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "iot-sensor-dashboard",
+      "description": "Real-time sensor data dashboard using React and dynamic charts",
+      "tech": ["React", "IoT", "Charts", "Real-time"],
+      "icon": "Globe",
+      "color": "from-teal-500 to-blue-500",
+      "github": "https://github.com/arish-panjwani/iot-sensor-dashboard",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "3D_developer_portfolio",
+      "description": "3D React-based portfolio showcasing data science projects",
+      "tech": ["React", "Three.js", "3D", "Portfolio"],
+      "icon": "Rocket",
+      "color": "from-indigo-500 to-purple-500",
+      "github": "https://github.com/arish-panjwani/3D_developer_portfolio",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "youtube-trending-analysis",
+      "description": "EDA + sentiment analysis with Streamlit dashboards",
+      "tech": ["Python", "Streamlit", "EDA", "NLP"],
+      "icon": "Brain",
+      "color": "from-pink-500 to-rose-500",
+      "github": "https://github.com/arish-panjwani/youtube-trending-analysis",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "cal-snap-react",
+      "description": "Calorie + workout tracking dashboard with Redux and Bootstrap",
+      "tech": ["React", "Redux", "Bootstrap", "Health"],
+      "icon": "Heart",
+      "color": "from-red-500 to-pink-500",
+      "github": "https://github.com/arish-panjwani/cal-snap-react",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "customer-churn-predictor",
+      "description": "WIP churn prediction project",
+      "tech": ["Python", "ML", "Prediction", "WIP"],
+      "icon": "Database",
+      "color": "from-gray-500 to-slate-500",
+      "github": "https://github.com/arish-panjwani/customer-churn-predictor",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "Student_Helper",
+      "description": "Android GPA + timetable + calculator utility app",
+      "tech": ["Android", "Java", "Mobile", "Utility"],
+      "icon": "Smartphone",
+      "color": "from-cyan-500 to-blue-500",
+      "github": "https://github.com/arish-panjwani/Student_Helper",
+      "demo": "",
+      "featured": true
+    }
+  ],
+  "techStack": {
+    "sections": [
+      {
+        "type": "Programming Languages",
+        "icon": "🚀",
+        "color": "from-blue-500 to-purple-500",
+        "list": [
+          {
+            "name": "Python",
+            "icon": "🐍",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "🟨",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "🔷",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Java",
+            "icon": "☕",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Kotlin",
+            "icon": "🟣",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "C#",
+            "icon": "🔵",
+            "proficiency": "Beginner"
+          },
+          {
+            "name": "SQL",
+            "icon": "🗃️",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "HTML5",
+            "icon": "🌐",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "CSS3",
+            "icon": "🎨",
+            "proficiency": "Advanced"
+          }
+        ]
+      },
+      {
+        "type": "Frontend / Mobile Development",
+        "icon": "⚛️",
+        "color": "from-pink-500 to-rose-500",
+        "list": [
+          {
+            "name": "React",
+            "icon": "⚛️",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "React Native",
+            "icon": "📱",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "Next.js",
+            "icon": "▲",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Expo",
+            "icon": "🔲",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "💨",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "🅱️",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Redux",
+            "icon": "🔄",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Three.js",
+            "icon": "🎮",
+            "proficiency": "Intermediate"
+          }
+        ]
+      },
+      {
+        "type": "Backend / Database",
+        "icon": "🖥️",
+        "color": "from-green-500 to-teal-500",
+        "list": [
+          {
+            "name": "Node.js",
+            "icon": "🟢",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "Flask",
+            "icon": "🌶️",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "FastAPI",
+            "icon": "⚡",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Express.js",
+            "icon": "🚀",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "🍃",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "SQLite",
+            "icon": "💾",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "MySQL",
+            "icon": "🗄️",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "PostgreSQL",
+            "icon": "🐘",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "REST APIs",
+            "icon": "🔗",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "Socket.IO",
+            "icon": "🔌",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "JWT",
+            "icon": "🔐",
+            "proficiency": "Advanced"
+          }
+        ]
+      },
+      {
+        "type": "Data Science / Machine Learning / Computer Vision",
+        "icon": "🤖",
+        "color": "from-cyan-500 to-blue-500",
+        "list": [
+          {
+            "name": "TensorFlow",
+            "icon": "🧠",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Keras",
+            "icon": "🔥",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "OpenCV",
+            "icon": "👁️",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Scikit-learn",
+            "icon": "🤖",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Pandas",
+            "icon": "🐼",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "NumPy",
+            "icon": "🔢",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Matplotlib",
+            "icon": "📊",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Seaborn",
+            "icon": "📈",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Streamlit",
+            "icon": "🌊",
+            "proficiency": "Intermediate"
+          }
+        ]
+      },
+      {
+        "type": "Data Visualization / Business Intelligence",
+        "icon": "📊",
+        "color": "from-orange-500 to-red-500",
+        "list": [
+          {
+            "name": "Power BI",
+            "icon": "📊",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Tableau",
+            "icon": "📈",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Matplotlib",
+            "icon": "📉",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Seaborn",
+            "icon": "📋",
+            "proficiency": "Advanced"
+          }
+        ]
+      },
+      {
+        "type": "Tools / DevOps / Cloud",
+        "icon": "🛠️",
+        "color": "from-gray-500 to-slate-500",
+        "list": [
+          {
+            "name": "Git",
+            "icon": "📝",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "GitHub",
+            "icon": "🐙",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "Postman",
+            "icon": "📮",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Docker",
+            "icon": "🐳",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Linux",
+            "icon": "🐧",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Google Cloud Platform",
+            "icon": "☁️",
+            "proficiency": "Beginner"
+          },
+          {
+            "name": "Vercel",
+            "icon": "▲",
+            "proficiency": "Advanced"
+          },
+          {
+            "name": "Netlify",
+            "icon": "🌐",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "Heroku",
+            "icon": "🟣",
+            "proficiency": "Intermediate"
+          },
+          {
+            "name": "VS Code",
+            "icon": "💻",
+            "proficiency": "Expert"
+          },
+          {
+            "name": "JIRA",
+            "icon": "📋",
+            "proficiency": "Advanced"
+          }
+        ]
+      }
+    ]
+  }
+}
