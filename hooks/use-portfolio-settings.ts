@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 
 export function usePortfolioSettings() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
   const [optimized, setOptimized] = useState(false)
 
   useEffect(() => {
