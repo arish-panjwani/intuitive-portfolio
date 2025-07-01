@@ -7,6 +7,6 @@ export const trackClick = (
   category: string = "Engagement",
   value?: number
 ) => {
-  console.info("[GA TRACK]", { action, category, label, value });
+  // console.info("[GA TRACK]", { action, category, label, value });
   event({ action, category, label, value })
 }
