@@ -6,6 +6,7 @@ import { Mail, Github, Linkedin, Rocket, GraduationCap, Briefcase } from "lucide
 import portfolioData from "@/data/portfolio.json"
 import { scrollToSection } from "@/utils/scroll"
 import { SUBTITLE_WORDS } from "@/constants/animations"
+import { trackClick } from "@/utils/trackClick"
 
 interface HeroSectionProps {
   optimized: boolean
@@ -111,7 +112,11 @@ export function HeroSection({ optimized }: HeroSectionProps) {
             <Button
               size="sm"
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg text-xs sm:text-sm md:text-base px-3 sm:px-4 py-2"
-              onClick={() => scrollToSection("projects")}
+              onClick={() => {
+                scrollToSection("projects");
+                trackClick("Projects Button", "navigate_projects", "Navigation");
+                }
+              }
             >
               <Rocket className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 mr-1 sm:mr-2" />
               <span className="hidden xs:inline">View Projects</span>
@@ -124,7 +129,10 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               variant="outline"
               size="sm"
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-2 hover:bg-gray-50 dark:hover:bg-gray-700 text-xs sm:text-sm md:text-base px-3 sm:px-4 py-2"
-              onClick={() => scrollToSection("education")}
+              onClick={() => {
+              scrollToSection("education");
+              trackClick("Education Button", "navigate_education", "Navigation");
+              }}
             >
               <GraduationCap className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 mr-1 sm:mr-2" />
               Education
@@ -136,7 +144,10 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               variant="outline"
               size="sm"
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-2 hover:bg-gray-50 dark:hover:bg-gray-700 text-xs sm:text-sm md:text-base px-3 sm:px-4 py-2"
-              onClick={() => scrollToSection("experience")}
+              onClick={() => {
+              scrollToSection("experience");
+              trackClick("Experience Button", "navigate_experience", "Navigation");
+              }}
             >
               <Briefcase className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 mr-1 sm:mr-2" />
               Experience
@@ -148,7 +159,10 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               variant="outline"
               size="sm"
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-2 hover:bg-gray-50 dark:hover:bg-gray-700 text-xs sm:text-sm md:text-base px-3 sm:px-4 py-2"
-              onClick={() => scrollToSection("projects")}
+              onClick={() => {
+                scrollToSection("projects");
+                trackClick("Top GitHub Icon", "navigate_github_top", "Social");
+              }}
             >
               <Github className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 mr-1 sm:mr-2" />
               GitHub
@@ -170,7 +184,12 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
               asChild
             >
-              <a href={portfolioData.personal.github} target="_blank" rel="noopener noreferrer">
+              <a 
+              href={portfolioData.personal.github} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={() => trackClick("Footer GitHub Icon", "click_github_footer", "Social")}
+              >
                 <Github className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6" />
               </a>
             </Button>
@@ -183,7 +202,12 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
               asChild
             >
-              <a href={portfolioData.personal.linkedin} target="_blank" rel="noopener noreferrer">
+              <a 
+              href={portfolioData.personal.linkedin} 
+              target="_blank" 
+              rel="noopener noreferrer"
+               onClick={() => trackClick("Footer LinkedIn Icon", "click_linkedin_footer", "Social")}
+               >
                 <Linkedin className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6" />
               </a>
             </Button>
@@ -196,7 +220,10 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
               asChild
             >
-              <a href={`mailto:${portfolioData.personal.email}`}>
+              <a 
+              href={`mailto:${portfolioData.personal.email}`}
+              onClick={() => trackClick("Footer Email Icon", "click_email_footer", "Social")}
+              >
                 <Mail className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6" />
               </a>
             </Button>

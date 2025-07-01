@@ -6,6 +6,7 @@ import { Switch } from "@/components/ui/switch"
 import { Moon, Sun, Download, Zap, ZapOff } from "lucide-react"
 import portfolioData from "@/data/portfolio.json"
 import { scrollToTop } from "@/utils/scroll"
+import { trackClick } from "@/utils/trackClick"
 
 interface HeaderProps {
   darkMode: boolean
@@ -61,7 +62,7 @@ export function Header({ darkMode, optimized, toggleDarkMode, toggleOptimized }:
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 text-xs sm:text-sm px-2 sm:px-3"
               asChild
             >
-              <a href={portfolioData.personal.resumeUrl} target="_blank" rel="noopener noreferrer">
+              <a href={portfolioData.personal.resumeUrl} target="_blank" rel="noopener noreferrer" onClick={() => trackClick("Resume Button", "click_resume")}>
                 <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
                 Resume
               </a>

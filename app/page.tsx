@@ -1,6 +1,8 @@
 "use client"
 
 import { useEffect } from "react"
+import { usePathname } from "next/navigation"
+import { pageview } from "@/lib/gtag"
 import portfolioData from "@/data/portfolio.json"
 import { usePortfolioSettings } from "@/hooks/use-portfolio-settings"
 import { Header } from "@/components/layout/header"
@@ -24,6 +26,12 @@ export default function Portfolio() {
       return () => window.removeEventListener("mousemove", () => {})
     }
   }, [optimized])
+
+  const pathname = usePathname()
+
+  useEffect(() => {
+  pageview(pathname)
+  }, [pathname])
 
   return (
     <div className={`min-h-screen transition-all duration-300 ${darkMode ? "dark" : ""}`}>

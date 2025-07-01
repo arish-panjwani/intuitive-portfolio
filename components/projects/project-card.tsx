@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Globe, Brain, Database, Code, Zap, Rocket, Heart, Smartphone } from "lucide-react"
 import type { JSX } from "react" // Import JSX to fix the undeclared variable error
+import { trackClick } from "@/utils/trackClick"
 
 interface ProjectCardProps {
   project: {
@@ -89,7 +90,14 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               className="w-full bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 hover:from-blue-100 hover:to-purple-100 dark:hover:from-blue-800/30 dark:hover:to-purple-800/30 text-xs sm:text-sm py-1.5 sm:py-2"
               asChild
             >
-              <a href={project.github} target="_blank" rel="noopener noreferrer">
+              <a 
+              href={project.github} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={() =>
+              trackClick(`Project: ${project.title}`,`click_project_${project.title.replace(/\\s+/g, '_')}`, "Project")
+               }
+              >
                 <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
                 View Project
               </a>

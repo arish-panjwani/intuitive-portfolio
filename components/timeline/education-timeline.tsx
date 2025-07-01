@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, Calendar, ExternalLink } from "lucide-react"
+import { trackClick } from "@/utils/trackClick"
 
 interface EducationTimelineProps {
   education: Array<{
@@ -65,7 +66,11 @@ export function EducationTimeline({ education, isOptimized }: EducationTimelineP
                   } ${edu.website ? "cursor-pointer" : ""}`}
                   whileHover={!isOptimized ? { scale: 1.02 } : {}}
                   transition={{ type: "spring", stiffness: 300 }}
-                  onClick={() => handleInstitutionClick(edu.website)}
+                  onClick={() => {
+                  handleInstitutionClick(edu.website);
+                  trackClick(`Institution: ${edu.institution}`, `click_institution_${edu.institution.replace(/\\s+/g, "_").toLowerCase()}`, "Education");
+                  }
+                  }
                 >
                   {/* Logo */}
                   <div className="mb-4 sm:mb-6">

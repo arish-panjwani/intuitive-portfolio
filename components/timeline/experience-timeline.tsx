@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, Calendar, ExternalLink } from "lucide-react"
+import { trackClick } from "@/utils/trackClick"
 
 interface ExperienceTimelineProps {
   experience: Array<{
@@ -78,7 +79,11 @@ export function ExperienceTimeline({ experience, isOptimized }: ExperienceTimeli
                   } ${exp.website ? "cursor-pointer" : ""}`}
                   whileHover={!isOptimized ? { scale: 1.02 } : {}}
                   transition={{ type: "spring", stiffness: 300 }}
-                  onClick={() => handleCompanyClick(exp.website)}
+                  onClick={() => {
+                  handleCompanyClick(exp.website)
+                  trackClick(`Company: ${exp.company}`, `click_company_${exp.company.replace(/\\s+/g, "_").toLowerCase()}`, "Experience")
+                  }
+                  }
                 >
                   {/* Logo */}
                   <div className="mb-4 sm:mb-6">
