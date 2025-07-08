@@ -29,7 +29,7 @@ export function TechStackSection({ techStack, isOptimized }: TechStackSectionPro
   const categoriesCount = techStack.sections.length
 
   return (
-    <section id="tech" className="py-12 sm:py-16 md:py-20 px-4 bg-gray-50 dark:bg-gray-800 overflow-hidden">
+    <section id="tech" className="py-12 sm:py-16 md:py-20 px-4 bg-gray-50 dark:bg-gray-900 overflow-hidden">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

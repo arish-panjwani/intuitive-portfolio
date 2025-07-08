@@ -17,6 +17,7 @@ import { EducationTimeline } from "@/components/timeline/education-timeline"
 import { ExperienceTimeline } from "@/components/timeline/experience-timeline"
 import { motion } from "framer-motion"
 import { SECTION_ANIMATIONS } from "@/constants/animations"
+import { CoursesSection } from "@/components/courses/courses-section"
 
 export default function Portfolio() {
   const { darkMode, optimized, toggleDarkMode, toggleOptimized } = usePortfolioSettings()
@@ -85,6 +86,9 @@ export default function Portfolio() {
         {/* Projects Section */}
         <ProjectsSection projects={portfolioData.projects} />
 
+        {/* Courses Section */}
+        <CoursesSection courses={portfolioData.courses} isOptimized={optimized} />
+        
         {/* Tech Stack Section */}
         <TechStackSection techStack={portfolioData.techStack} isOptimized={optimized} />
 

@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Linkedin, Rocket, GraduationCap, Briefcase } from "lucide-react"
+import { Mail, ShieldCheck,Github, Linkedin, Rocket, GraduationCap, Briefcase } from "lucide-react"
 import portfolioData from "@/data/portfolio.json"
 import { scrollToSection } from "@/utils/scroll"
 import { SUBTITLE_WORDS } from "@/constants/animations"
@@ -160,12 +160,12 @@ export function HeroSection({ optimized }: HeroSectionProps) {
               size="sm"
               className="bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-2 hover:bg-gray-50 dark:hover:bg-gray-700 text-xs sm:text-sm md:text-base px-3 sm:px-4 py-2"
               onClick={() => {
-                scrollToSection("projects");
-                trackClick("Top GitHub Icon", "navigate_github_top", "Social");
+                scrollToSection("courses");
+                trackClick("Certificates", "navigate_certificates", "Social");
               }}
             >
-              <Github className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 mr-1 sm:mr-2" />
-              GitHub
+              <ShieldCheck className="h-3 w-3 sm:h-4 sm:w-4 md:h-5 md:w-5 mr-1 sm:mr-2" />
+              Certificates
             </Button>
           </motion.div>
         </motion.div>

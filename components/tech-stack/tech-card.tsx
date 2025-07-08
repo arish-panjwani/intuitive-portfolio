@@ -46,7 +46,7 @@ export function TechCard({ tech, index, isOptimized }: TechCardProps) {
 
   return (
     <motion.div
-      className="flex-shrink-0 w-32 sm:w-36"
+      className="flex-shrink-0 w-32 sm:w-36 my-4"
       whileHover={!isOptimized ? { scale: 1.05, y: -5 } : {}}
       transition={{ type: "spring", stiffness: 300 }}
     >
