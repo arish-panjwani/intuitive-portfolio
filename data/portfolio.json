@@ -224,7 +224,7 @@
     "expiration_date": { "month": null, "year": null },
     "credential_id": "4V2RK83F32WF",
     "credential_url": "https://www.coursera.org/account/accomplishments/verify/4V2RK83F32WF",
-    "skills": ["Computer Vision", "Python", "OpenCV"]
+    "skills": ["Computer Vision", "Python", "OpenCV", "Deep Learning"]
   },
   {
     "name": "Artificial Intelligence Foundations: Thinking Machines",
@@ -467,7 +467,7 @@
     "expiration_date": { "month": null, "year": null },
     "credential_id": null,
     "credential_url": "https://www.youracclaim.com/badges/9fc9c27f-8d41-4369-9468-4e665d0dae96?source=linked_in_profile",
-    "skills": ["Security"]
+    "skills": ["Cyber-Security","Computer Networks"]
   }
 ],
   "techStack": {
