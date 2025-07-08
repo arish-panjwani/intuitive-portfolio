@@ -132,26 +132,6 @@ export function CourseCard({ course, index, isOptimized }: CourseCardProps) {
               <span className="font-medium">ID:</span> {course.credential_id}
             </div>
           )}
-
-          {/* Verify Button */}
-          {course.credential_url && (
-            <motion.div
-              className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              whileHover={{ scale: 1.02 }}
-            >
-              <Button
-                variant="outline"
-                size="sm"
-                className="w-full bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 hover:from-blue-100 hover:to-purple-100 dark:hover:from-blue-800/30 dark:hover:to-purple-800/30 text-xs sm:text-sm py-1.5 sm:py-2"
-                asChild
-              >
-                <a href={course.credential_url} target="_blank" rel="noopener noreferrer">
-                  <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                  Verify Certificate
-                </a>
-              </Button>
-            </motion.div>
-          )}
         </CardContent>
       </Card>
     </motion.div>)
