@@ -42,6 +42,23 @@ export function EducationTimeline({ education, isOptimized }: EducationTimelineP
     }
   }
 
+const renderFocusAreas = (focus_areas: string[]) => (
+  <div className="space-y-3 text-sm sm:text-base text-gray-700 dark:text-gray-300">
+    <div className="space-y-2">
+      <h5 className="font-semibold text-gray-800 dark:text-gray-200">Focus Areas:</h5>
+      <ul className="space-y-1 ml-4">
+        {focus_areas?.map((item, index) => (
+          <li key={index} className="flex items-start gap-2">
+            <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+)
+  
+
   return (
     <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
       {education.map((edu, index) => {
@@ -156,49 +173,9 @@ export function EducationTimeline({ education, isOptimized }: EducationTimelineP
                     </div>
 
                     {/* Optional Education Details */}
-                    {edu.status === "current" && (
-                      <div className="space-y-3 text-sm sm:text-base text-gray-700 dark:text-gray-300">
-                        <div className="space-y-2">
-                          <h5 className="font-semibold text-gray-800 dark:text-gray-200">Focus Areas:</h5>
-                          <ul className="space-y-1 ml-4">
-                            <li className="flex items-start gap-2">
-                              <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>Machine Learning & Deep Learning</span>
-                            </li>
-                            <li className="flex items-start gap-2">
-                              <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>Data Analytics & Visualization</span>
-                            </li>
-                            <li className="flex items-start gap-2">
-                              <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>AI Application Development</span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    )}
+                    {edu.status === "current" && renderFocusAreas(edu?.focus_areas)}
 
-                    {edu.status === "completed" && (
-                      <div className="space-y-3 text-sm sm:text-base text-gray-700 dark:text-gray-300">
-                        <div className="space-y-2">
-                          <h5 className="font-semibold text-gray-800 dark:text-gray-200">Key Coursework:</h5>
-                          <ul className="space-y-1 ml-4">
-                            <li className="flex items-start gap-2">
-                              <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>Software Engineering & System Design</span>
-                            </li>
-                            <li className="flex items-start gap-2">
-                              <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>Data Structures & Algorithms</span>
-                            </li>
-                            <li className="flex items-start gap-2">
-                              <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                              <span>Database Management & Web Technologies</span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    )}
+                    {edu.status === "completed" && renderFocusAreas(edu?.focus_areas)}
                   </CardContent>
                 </motion.div>
               </div>

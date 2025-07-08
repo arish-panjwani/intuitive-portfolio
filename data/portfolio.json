@@ -45,7 +45,8 @@
       "location": "Toronto, ON",
       "period": "Apr 2024 – Present",
       "status": "current",
-      "website": "https://loyalistcollege.com/lcit/"
+      "website": "https://loyalistcollege.com/lcit/",
+      "focus_areas": ["Machine Learning & Deep Learning","Natural Language Processing","Computer Vision and Neural Networks","Deployment and ML and LLM Ops", "AI Agents and creating Pipelines"]
     },
     {
       "degree": "Bachelor of Engineering in Computer Science",
@@ -53,7 +54,8 @@
       "location": "India",
       "period": "Apr 2015 – Dec 2020",
       "status": "completed",
-      "website": "https://dypsoet.in/"
+      "website": "https://dypsoet.in/",
+      "focus_areas":["Software Engineering & System Design","Data Structures & Algorithms","Object Oriented Programming","Database Management & Web Technologies", "Networking and Cyber-Security"]
     }
   ],
   "experience": [
@@ -65,8 +67,8 @@
       "type": "full-time",
       "website": "https://www.getzype.com/",
       "achievements": [
-        "Built 10+ scalable features across platforms using TypeScript and Node.js; boosted user retention by 12% QoQ",
-        "Automated reporting workflows using Python and SQL, reducing effort by 6+ hours weekly and errors by 80%",
+        "Built 10+ scalable features across platforms using TS & Node.js; boosted user retention by 12% QoQ",
+        "Automated reporting workflows using Python & SQL, reducing effort by 6+ hours weekly & errors by 80%",
         "Integrated third-party APIs and optimized backend response time by 20%, improving performance for high-volume endpoints",
         "Mentored 2 junior developers and led code reviews to ensure code quality and maintainability"
       ]
@@ -92,7 +94,7 @@
       "period": "May 2024 – Present",
       "type": "part-time",
       "website": "https://impactkitchen.ca",
-      "achievements": ["Part-time role while pursuing AI & Data Science education"]
+      "achievements": ["Handling All Back of the house roles such as dishwashing, prep and line cook responsibilities, learning multi-tasking and agility in a fast paced environment"]
     },
     {
       "title": "Elections Poll Official",
@@ -101,7 +103,7 @@
       "period": "Feb 2025",
       "type": "seasonal",
       "website": "https://elections.on.ca",
-      "achievements": ["Seasonal position supporting democratic processes in Ontario"]
+      "achievements": ["Assisted in the successful execution of the Ontario provincial elections by supporting logistics, verification procedures, and effective crowd management to ensure a smooth democratic process."]
     }
   ],
   "projects": [
