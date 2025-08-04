@@ -46,7 +46,13 @@
       "period": "Apr 2024 – Present",
       "status": "current",
       "website": "https://loyalistcollege.com/lcit/",
-      "focus_areas": ["Machine Learning & Deep Learning","Natural Language Processing","Computer Vision and Neural Networks","Deployment and ML and LLM Ops", "AI Agents and creating Pipelines"]
+      "focus_areas": [
+        "Machine Learning & Deep Learning",
+        "Natural Language Processing",
+        "Computer Vision and Neural Networks",
+        "Deployment and ML and LLM Ops",
+        "AI Agents and creating Pipelines"
+      ]
     },
     {
       "degree": "Bachelor of Engineering in Computer Science",
@@ -55,7 +61,13 @@
       "period": "Apr 2015 – Dec 2020",
       "status": "completed",
       "website": "https://dypsoet.in/",
-      "focus_areas":["Software Engineering & System Design","Data Structures & Algorithms","Object Oriented Programming","Database Management & Web Technologies", "Networking and Cyber-Security"]
+      "focus_areas": [
+        "Software Engineering & System Design",
+        "Data Structures & Algorithms",
+        "Object Oriented Programming",
+        "Database Management & Web Technologies",
+        "Networking and Cyber-Security"
+      ]
     }
   ],
   "experience": [
@@ -94,7 +106,9 @@
       "period": "May 2024 – Present",
       "type": "part-time",
       "website": "https://impactkitchen.ca",
-      "achievements": ["Handling All Back of the house roles such as dishwashing, prep and line cook responsibilities, learning multi-tasking and agility in a fast paced environment"]
+      "achievements": [
+        "Handling All Back of the house roles such as dishwashing, prep and line cook responsibilities, learning multi-tasking and agility in a fast paced environment"
+      ]
     },
     {
       "title": "Elections Poll Official",
@@ -103,14 +117,21 @@
       "period": "Feb 2025",
       "type": "seasonal",
       "website": "https://elections.on.ca",
-      "achievements": ["Assisted in the successful execution of the Ontario provincial elections by supporting logistics, verification procedures, and effective crowd management to ensure a smooth democratic process."]
+      "achievements": [
+        "Assisted in the successful execution of the Ontario provincial elections by supporting logistics, verification procedures, and effective crowd management to ensure a smooth democratic process."
+      ]
     }
   ],
   "projects": [
     {
       "title": "LANversation",
       "description": "Encrypted LAN Chat App built with Flask and Vanilla JS",
-      "tech": ["Flask", "JavaScript", "Socket.IO", "Encryption"],
+      "tech": [
+        "Flask",
+        "JavaScript",
+        "Socket.IO",
+        "Encryption"
+      ],
       "icon": "Globe",
       "color": "from-blue-500 to-cyan-500",
       "github": "https://github.com/arish-panjwani/LANversation",
@@ -120,7 +141,12 @@
     {
       "title": "ai-loan-predictor",
       "description": "Loan Eligibility ML Model with Flask API",
-      "tech": ["Python", "Flask", "Scikit-learn", "ML"],
+      "tech": [
+        "Python",
+        "Flask",
+        "Scikit-learn",
+        "ML"
+      ],
       "icon": "Brain",
       "color": "from-purple-500 to-pink-500",
       "github": "https://github.com/arish-panjwani/ai-loan-predictor",
@@ -130,7 +156,12 @@
     {
       "title": "sales_prediction_api",
       "description": "Sales prediction via linear regression, deployed with Docker",
-      "tech": ["Python", "Docker", "Linear Regression", "API"],
+      "tech": [
+        "Python",
+        "Docker",
+        "Linear Regression",
+        "API"
+      ],
       "icon": "Database",
       "color": "from-green-500 to-emerald-500",
       "github": "https://github.com/arish-panjwani/sales_prediction_api",
@@ -140,7 +171,12 @@
     {
       "title": "model-deployment-dashboard",
       "description": "ML API Testing Dashboard built with Next.js and TypeScript",
-      "tech": ["Next.js", "TypeScript", "React", "Dashboard"],
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "React",
+        "Dashboard"
+      ],
       "icon": "Code",
       "color": "from-orange-500 to-red-500",
       "github": "https://github.com/arish-panjwani/model-deployment-dashboard",
@@ -150,7 +186,12 @@
     {
       "title": "ai-personal-finance-tracker",
       "description": "AI-powered budget tracker with JWT auth and analytics",
-      "tech": ["React", "Node.js", "JWT", "AI"],
+      "tech": [
+        "React",
+        "Node.js",
+        "JWT",
+        "AI"
+      ],
       "icon": "Zap",
       "color": "from-yellow-500 to-orange-500",
       "github": "https://github.com/arish-panjwani/ai-personal-finance-tracker",
@@ -160,7 +201,12 @@
     {
       "title": "iot-sensor-dashboard",
       "description": "Real-time sensor data dashboard using React and dynamic charts",
-      "tech": ["React", "IoT", "Charts", "Real-time"],
+      "tech": [
+        "React",
+        "IoT",
+        "Charts",
+        "Real-time"
+      ],
       "icon": "Globe",
       "color": "from-teal-500 to-blue-500",
       "github": "https://github.com/arish-panjwani/iot-sensor-dashboard",
@@ -170,7 +216,12 @@
     {
       "title": "3D_developer_portfolio",
       "description": "3D React-based portfolio showcasing data science projects",
-      "tech": ["React", "Three.js", "3D", "Portfolio"],
+      "tech": [
+        "React",
+        "Three.js",
+        "3D",
+        "Portfolio"
+      ],
       "icon": "Rocket",
       "color": "from-indigo-500 to-purple-500",
       "github": "https://github.com/arish-panjwani/3D_developer_portfolio",
@@ -180,7 +231,12 @@
     {
       "title": "youtube-trending-analysis",
       "description": "EDA + sentiment analysis with Streamlit dashboards",
-      "tech": ["Python", "Streamlit", "EDA", "NLP"],
+      "tech": [
+        "Python",
+        "Streamlit",
+        "EDA",
+        "NLP"
+      ],
       "icon": "Brain",
       "color": "from-pink-500 to-rose-500",
       "github": "https://github.com/arish-panjwani/youtube-trending-analysis",
@@ -190,7 +246,12 @@
     {
       "title": "cal-snap-react",
       "description": "Calorie + workout tracking dashboard with Redux and Bootstrap",
-      "tech": ["React", "Redux", "Bootstrap", "Health"],
+      "tech": [
+        "React",
+        "Redux",
+        "Bootstrap",
+        "Health"
+      ],
       "icon": "Heart",
       "color": "from-red-500 to-pink-500",
       "github": "https://github.com/arish-panjwani/cal-snap-react",
@@ -200,7 +261,12 @@
     {
       "title": "customer-churn-predictor",
       "description": "WIP churn prediction project",
-      "tech": ["Python", "ML", "Prediction", "WIP"],
+      "tech": [
+        "Python",
+        "ML",
+        "Prediction",
+        "WIP"
+      ],
       "icon": "Database",
       "color": "from-gray-500 to-slate-500",
       "github": "https://github.com/arish-panjwani/customer-churn-predictor",
@@ -210,7 +276,12 @@
     {
       "title": "Student_Helper",
       "description": "Android GPA + timetable + calculator utility app",
-      "tech": ["Android", "Java", "Mobile", "Utility"],
+      "tech": [
+        "Android",
+        "Java",
+        "Mobile",
+        "Utility"
+      ],
       "icon": "Smartphone",
       "color": "from-cyan-500 to-blue-500",
       "github": "https://github.com/arish-panjwani/Student_Helper",
@@ -219,259 +290,597 @@
     }
   ],
   "courses": [
-  {
-    "name": "Computer Vision - Object Detection with OpenCV and Python",
-    "issuing_organization": "Coursera",
-    "issue_date": { "month": "August", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "4V2RK83F32WF",
-    "credential_url": "https://www.coursera.org/account/accomplishments/verify/4V2RK83F32WF",
-    "skills": ["Computer Vision", "Python", "OpenCV", "Deep Learning"]
-  },
-  {
-    "name": "Artificial Intelligence Foundations: Thinking Machines",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "September", "year": "2023" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.linkedin.com/learning/certificates/f98db08d4103572093f0d1de3513e4292ef13ced90a6d5834adf258995bbab35",
-    "skills": ["Artificial Intelligence", "Machine Learning"]
-  },
-  {
-    "name": "What Is Generative AI?",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "December", "year": "2023" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.linkedin.com/learning/certificates/eeef65fafb73e830cbc2daf2fc14a954d92f54e496b9a945cba7172fa2f82b40",
-    "skills": ["Generative AI", "Artificial Intelligence", "Artificial Intelligence for Business"]
-  },
-  {
-    "name": "Statistics Foundations 1: The Basics",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "June", "year": "2024" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.linkedin.com/learning/certificates/476349d382a1958e4c940f4bf74f4c1c99f14d41f47fedc61fb292f484ffb8c3",
-    "skills": ["Statistics"]
-  },
-  {
-    "name": "Learning Data Analytics",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "August", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.linkedin.com/learning/certificates/70639fcc265bfb2415ce950c5038719daf21928f89e026aed3c328cd01d69003?trk=backfilled_certificate",
-    "skills": ["Python", "Jupyter Notebook"]
-  },
-  {
-    "name": "Data Visualization Using Python",
-    "issuing_organization": "Cognitive Class",
-    "issue_date": { "month": "July", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "fa39e2ffec0741848d9e9b5178f8fe63",
-    "credential_url": "https://courses.cognitiveclass.ai/certificates/fa39e2ffec0741848d9e9b5178f8fe63",
-    "skills": ["Python", "Jupyter Notebook"]
-  },
-  {
-    "name": "Digital Learning Series: Data Visualization with Python",
-    "issuing_organization": "Ismaili Professionals Network (IPN)",
-    "issue_date": { "month": "July", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": null,
-    "skills": ["Python", "Jupyter Notebook"]
-  },
-  {
-    "name": "IBM Blockchain Essentials V2",
-    "issuing_organization": "IBM",
-    "issue_date": { "month": "July", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.youracclaim.com/badges/5d91b436-9396-40d5-9f10-d26c833932ce?source=linked_in_profile",
-    "skills": ["Blockchain"]
-  },
-  {
-    "name": "Blockchain Essentials",
-    "issuing_organization": "Cognitive Class",
-    "issue_date": { "month": "July", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "2a10438420e94791a9bb93cd504a0126",
-    "credential_url": "https://courses.cognitiveclass.ai/certificates/2a10438420e94791a9bb93cd504a0126",
-    "skills": ["Blockchain"]
-  },
-  {
-    "name": "AWS Fundamentals: Going Cloud Native",
-    "issuing_organization": "Coursera",
-    "issue_date": { "month": "June", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "MN5SLRK73MBY",
-    "credential_url": "https://www.coursera.org/account/accomplishments/records/MN5SLRK73MBY",
-    "skills": ["AWS"]
-  },
-  {
-    "name": "Learning Redux Toolkit",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "January", "year": "2023" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.linkedin.com/learning/certificates/f59c410e66b38587f2c61fa57ccb28d90ec37d761292c60f93403f05223c465d",
-    "skills": ["React", "Redux", "JavaScript"]
-  },
-  {
-    "name": "Advanced npm",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "April", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "AX4VeB1x1vuTwXPQ1ujeAw3MsDBd",
-    "credential_url": "https://www.linkedin.com/learning/certificates/02d8cd6a1d5762ca89babee1c69f67139c4d9374e1b0c61c0181c066ffd1e93c?trk=backfilled_certificate",
-    "skills": ["Node", "NPM", "JavaScript"]
-  },
-  {
-    "name": "Node.js Essential Training",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "April", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "AdyoKjNH9opyNNOM32BAA5fvybN8",
-    "credential_url": "https://www.linkedin.com/learning/certificates/5ebf9770c82035a7eb9037cc12b78ca7b06d98de99bba80d5e88c1852cea50dc?trk=backfilled_certificate",
-    "skills": ["Node", "NPM", "JavaScript"]
-  },
-  {
-    "name": "React Hooks",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "April", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "AXUsQdOXj_rE46EdFlpxsYQ4YJGF",
-    "credential_url": "https://www.linkedin.com/learning/certificates/f7071b5c0f3982d5a50c57035d34e1a50cd0586be5e9492b5f265967f350c517?trk=backfilled_certificate",
-    "skills": ["React", "JavaScript"]
-  },
-  {
-    "name": "React.js Essential Training",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "April", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "AZVESrvauE_XL1VMePEsFqEe3dEL",
-    "credential_url": "https://www.linkedin.com/learning/certificates/db5b76247075e166680cd14396bee31e0ba136543f1680e0b89ed292215c588e?trk=backfilled_certificate",
-    "skills": ["React", "JavaScript"]
-  },
-  {
-    "name": "Learning React.js",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "March", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "AcxCXARbpa3yL3yZJWdE6a7CPYNg",
-    "credential_url": "https://www.linkedin.com/learning/certificates/8455d6eb26010acf2db36922668d1263c50aed957fed5e3ef13ac9a069f05c35?trk=backfilled_certificate",
-    "skills": ["React", "JavaScript"]
-  },
-  {
-    "name": "Learning npm the Node Package Manager",
-    "issuing_organization": "LinkedIn",
-    "issue_date": { "month": "March", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "AdxsCqTK7Ubdg8rGM7rsUJ2EyyIZ",
-    "credential_url": "https://www.linkedin.com/learning/certificates/162142f4a920f8d1c744ad6baddba377299a4fcbc2e8f3d92f01a424a85a9823?trk=backfilled_certificate",
-    "skills": ["NPM", "Node", "JavaScript"]
-  },
-  {
-    "name": "The Complete React Native + Hooks Course [2020 Edition]",
-    "issuing_organization": "Udemy",
-    "issue_date": { "month": "March", "year": "2021" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "UC-eaaddb35-4c42-40bd-ac50-f1ca4196f038",
-    "credential_url": "https://ude.my/UC-eaaddb35-4c42-40bd-ac50-f1ca4196f038",
-    "skills": ["React", "JavaScript"]
-  },
-  {
-    "name": "COVID19 Data Analysis Using Python",
-    "issuing_organization": "Coursera",
-    "issue_date": { "month": "July", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "2QQCSTGXRQT6",
-    "credential_url": "https://www.coursera.org/account/accomplishments/verify/2QQCSTGXRQT6",
-    "skills": ["Python", "Jupyter Notebook"]
-  },
-  {
-    "name": "User Experience Design – Creating User Profiles",
-    "issuing_organization": "Coursera",
-    "issue_date": { "month": "June", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "6WV3FNGWN72N",
-    "credential_url": null,
-    "skills": ["UX Design", "User Research"]
-  },
-  {
-    "name": "Build Your Portfolio Website with HTML and CSS",
-    "issuing_organization": "Coursera",
-    "issue_date": { "month": "May", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "TZGMPD53E4QS",
-    "credential_url": null,
-    "skills": ["HTML", "CSS", "Web Development"]
-  },
-  {
-    "name": "Complete Python Bootcamp: Go from zero to hero in Python 3",
-    "issuing_organization": "Udemy",
-    "issue_date": { "month": "May", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.udemy.com/certificate/UC-71162605-d5f4-4f67-ad4d-c00a24e7812b/",
-    "skills": ["Python"]
-  },
-  {
-    "name": "Create Your First Python Program",
-    "issuing_organization": "Coursera",
-    "issue_date": { "month": "May", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "8EX74WBPHNXT",
-    "credential_url": null,
-    "skills": ["Python"]
-  },
-  {
-    "name": "International Webinar on Web Development",
-    "issuing_organization": "HSPM Solutions LLP",
-    "issue_date": { "month": "June", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "UW3GMY-CE000046",
-    "credential_url": null,
-    "skills": ["Flutter"]
-  },
-  {
-    "name": "International Webinar on Web Development",
-    "issuing_organization": "HSPM Solutions LLP",
-    "issue_date": { "month": "May", "year": "2020" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": "A7IUKQ-CE000050",
-    "credential_url": null,
-    "skills": ["Web Development"]
-  },
-  {
-    "name": "ExploreML - Beginner",
-    "issuing_organization": "Google",
-    "issue_date": { "month": "October", "year": "2019" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": null,
-    "skills": ["Machine Learning"]
-  },
-  {
-    "name": "ExploreML - Intermediate",
-    "issuing_organization": "Google",
-    "issue_date": { "month": "October", "year": "2019" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": null,
-    "skills": ["Machine Learning"]
-  },
-  {
-    "name": "MTA: Security Fundamentals - Certified 2017",
-    "issuing_organization": "Microsoft",
-    "issue_date": { "month": "January", "year": "2017" },
-    "expiration_date": { "month": null, "year": null },
-    "credential_id": null,
-    "credential_url": "https://www.youracclaim.com/badges/9fc9c27f-8d41-4369-9468-4e665d0dae96?source=linked_in_profile",
-    "skills": ["Cyber-Security","Computer Networks"]
-  }
-],
+    {
+      "name": "Advanced RAG Applications with Vector Databases",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "August",
+        "year": "2025"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "19a23c942939985edf2effc5b2253edabf97a42a9dd79100e457387ffdf9f252",
+      "credential_url": "https://www.linkedin.com/learning/certificates/19a23c942939985edf2effc5b2253edabf97a42a9dd79100e457387ffdf9f252?u=2148769",
+      "skills": [
+        "Vector Databases",
+        "Large Language Models (LLM)",
+        "Retrieval-Augmented Generation (RAG)"
+      ]
+    },
+    {
+      "name": "Build AI Agents and Chatbots with LangGraph",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "August",
+        "year": "2025"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "d06c5f451d80a26bc505346a95709117f3303e7c9ec6b7494ce490f17e98240a",
+      "credential_url": "https://www.linkedin.com/learning/certificates/d06c5f451d80a26bc505346a95709117f3303e7c9ec6b7494ce490f17e98240a?u=2148769",
+      "skills": [
+        "AI Agents",
+        "Chatbots"
+      ]
+    },
+    {
+      "name": "GenAIOps Foundations",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "August",
+        "year": "2025"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "197bd5fbd772fadcadecb112c206f8beb0de1eedc1edf7e61e4b62ed5f8615b5",
+      "credential_url": "https://www.linkedin.com/learning/certificates/197bd5fbd772fadcadecb112c206f8beb0de1eedc1edf7e61e4b62ed5f8615b5?u=2148769",
+      "skills": [
+        "AIOps"
+      ]
+    },
+    {
+      "name": "Hands-On AI: Introduction to Retrieval-Augmented Generation (RAG)",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "August",
+        "year": "2025"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "09322fb5109079b450987712963107a5d295bec2172ad6acbe49169644c33156",
+      "credential_url": "https://www.linkedin.com/learning/certificates/09322fb5109079b450987712963107a5d295bec2172ad6acbe49169644c33156?u=2148769",
+      "skills": [
+        "Retrieval-Augmented Generation (RAG)"
+      ]
+    },
+    {
+      "name": "AI in Financial Forecasting",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "August",
+        "year": "2025"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "184e0a09ed09a65a6d318157e38312d32782afe1bea843c9ac02748decf38799",
+      "credential_url": "http://linkedin.com/learning/certificates/184e0a09ed09a65a6d318157e38312d32782afe1bea843c9ac02748decf38799?u=2148769",
+      "skills": [
+        "Financial Forecasting"
+      ]
+    },
+    {
+      "name": "Computer Vision - Object Detection with OpenCV and Python",
+      "issuing_organization": "Coursera",
+      "issue_date": {
+        "month": "August",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "4V2RK83F32WF",
+      "credential_url": "https://www.coursera.org/account/accomplishments/verify/4V2RK83F32WF",
+      "skills": [
+        "Computer Vision",
+        "Python",
+        "OpenCV",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "Artificial Intelligence Foundations: Thinking Machines",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "September",
+        "year": "2023"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.linkedin.com/learning/certificates/f98db08d4103572093f0d1de3513e4292ef13ced90a6d5834adf258995bbab35",
+      "skills": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "What Is Generative AI?",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "December",
+        "year": "2023"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.linkedin.com/learning/certificates/eeef65fafb73e830cbc2daf2fc14a954d92f54e496b9a945cba7172fa2f82b40",
+      "skills": [
+        "Generative AI",
+        "Artificial Intelligence",
+        "Artificial Intelligence for Business"
+      ]
+    },
+    {
+      "name": "Statistics Foundations 1: The Basics",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "June",
+        "year": "2024"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.linkedin.com/learning/certificates/476349d382a1958e4c940f4bf74f4c1c99f14d41f47fedc61fb292f484ffb8c3",
+      "skills": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Learning Data Analytics",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "August",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.linkedin.com/learning/certificates/70639fcc265bfb2415ce950c5038719daf21928f89e026aed3c328cd01d69003?trk=backfilled_certificate",
+      "skills": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "Data Visualization Using Python",
+      "issuing_organization": "Cognitive Class",
+      "issue_date": {
+        "month": "July",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "fa39e2ffec0741848d9e9b5178f8fe63",
+      "credential_url": "https://courses.cognitiveclass.ai/certificates/fa39e2ffec0741848d9e9b5178f8fe63",
+      "skills": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "Digital Learning Series: Data Visualization with Python",
+      "issuing_organization": "Ismaili Professionals Network (IPN)",
+      "issue_date": {
+        "month": "July",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": null,
+      "skills": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "IBM Blockchain Essentials V2",
+      "issuing_organization": "IBM",
+      "issue_date": {
+        "month": "July",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.youracclaim.com/badges/5d91b436-9396-40d5-9f10-d26c833932ce?source=linked_in_profile",
+      "skills": [
+        "Blockchain"
+      ]
+    },
+    {
+      "name": "Blockchain Essentials",
+      "issuing_organization": "Cognitive Class",
+      "issue_date": {
+        "month": "July",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "2a10438420e94791a9bb93cd504a0126",
+      "credential_url": "https://courses.cognitiveclass.ai/certificates/2a10438420e94791a9bb93cd504a0126",
+      "skills": [
+        "Blockchain"
+      ]
+    },
+    {
+      "name": "AWS Fundamentals: Going Cloud Native",
+      "issuing_organization": "Coursera",
+      "issue_date": {
+        "month": "June",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "MN5SLRK73MBY",
+      "credential_url": "https://www.coursera.org/account/accomplishments/records/MN5SLRK73MBY",
+      "skills": [
+        "AWS"
+      ]
+    },
+    {
+      "name": "Learning Redux Toolkit",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "January",
+        "year": "2023"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.linkedin.com/learning/certificates/f59c410e66b38587f2c61fa57ccb28d90ec37d761292c60f93403f05223c465d",
+      "skills": [
+        "React",
+        "Redux",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Advanced npm",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "April",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "AX4VeB1x1vuTwXPQ1ujeAw3MsDBd",
+      "credential_url": "https://www.linkedin.com/learning/certificates/02d8cd6a1d5762ca89babee1c69f67139c4d9374e1b0c61c0181c066ffd1e93c?trk=backfilled_certificate",
+      "skills": [
+        "Node",
+        "NPM",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Node.js Essential Training",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "April",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "AdyoKjNH9opyNNOM32BAA5fvybN8",
+      "credential_url": "https://www.linkedin.com/learning/certificates/5ebf9770c82035a7eb9037cc12b78ca7b06d98de99bba80d5e88c1852cea50dc?trk=backfilled_certificate",
+      "skills": [
+        "Node",
+        "NPM",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "React Hooks",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "April",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "AXUsQdOXj_rE46EdFlpxsYQ4YJGF",
+      "credential_url": "https://www.linkedin.com/learning/certificates/f7071b5c0f3982d5a50c57035d34e1a50cd0586be5e9492b5f265967f350c517?trk=backfilled_certificate",
+      "skills": [
+        "React",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "React.js Essential Training",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "April",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "AZVESrvauE_XL1VMePEsFqEe3dEL",
+      "credential_url": "https://www.linkedin.com/learning/certificates/db5b76247075e166680cd14396bee31e0ba136543f1680e0b89ed292215c588e?trk=backfilled_certificate",
+      "skills": [
+        "React",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Learning React.js",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "March",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "AcxCXARbpa3yL3yZJWdE6a7CPYNg",
+      "credential_url": "https://www.linkedin.com/learning/certificates/8455d6eb26010acf2db36922668d1263c50aed957fed5e3ef13ac9a069f05c35?trk=backfilled_certificate",
+      "skills": [
+        "React",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Learning npm the Node Package Manager",
+      "issuing_organization": "LinkedIn",
+      "issue_date": {
+        "month": "March",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "AdxsCqTK7Ubdg8rGM7rsUJ2EyyIZ",
+      "credential_url": "https://www.linkedin.com/learning/certificates/162142f4a920f8d1c744ad6baddba377299a4fcbc2e8f3d92f01a424a85a9823?trk=backfilled_certificate",
+      "skills": [
+        "NPM",
+        "Node",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "The Complete React Native + Hooks Course [2020 Edition]",
+      "issuing_organization": "Udemy",
+      "issue_date": {
+        "month": "March",
+        "year": "2021"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "UC-eaaddb35-4c42-40bd-ac50-f1ca4196f038",
+      "credential_url": "https://ude.my/UC-eaaddb35-4c42-40bd-ac50-f1ca4196f038",
+      "skills": [
+        "React",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "COVID19 Data Analysis Using Python",
+      "issuing_organization": "Coursera",
+      "issue_date": {
+        "month": "July",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "2QQCSTGXRQT6",
+      "credential_url": "https://www.coursera.org/account/accomplishments/verify/2QQCSTGXRQT6",
+      "skills": [
+        "Python",
+        "Jupyter Notebook"
+      ]
+    },
+    {
+      "name": "User Experience Design – Creating User Profiles",
+      "issuing_organization": "Coursera",
+      "issue_date": {
+        "month": "June",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "6WV3FNGWN72N",
+      "credential_url": null,
+      "skills": [
+        "UX Design",
+        "User Research"
+      ]
+    },
+    {
+      "name": "Build Your Portfolio Website with HTML and CSS",
+      "issuing_organization": "Coursera",
+      "issue_date": {
+        "month": "May",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "TZGMPD53E4QS",
+      "credential_url": null,
+      "skills": [
+        "HTML",
+        "CSS",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "Complete Python Bootcamp: Go from zero to hero in Python 3",
+      "issuing_organization": "Udemy",
+      "issue_date": {
+        "month": "May",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.udemy.com/certificate/UC-71162605-d5f4-4f67-ad4d-c00a24e7812b/",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Create Your First Python Program",
+      "issuing_organization": "Coursera",
+      "issue_date": {
+        "month": "May",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "8EX74WBPHNXT",
+      "credential_url": null,
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "International Webinar on Web Development",
+      "issuing_organization": "HSPM Solutions LLP",
+      "issue_date": {
+        "month": "June",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "UW3GMY-CE000046",
+      "credential_url": null,
+      "skills": [
+        "Flutter"
+      ]
+    },
+    {
+      "name": "International Webinar on Web Development",
+      "issuing_organization": "HSPM Solutions LLP",
+      "issue_date": {
+        "month": "May",
+        "year": "2020"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": "A7IUKQ-CE000050",
+      "credential_url": null,
+      "skills": [
+        "Web Development"
+      ]
+    },
+    {
+      "name": "ExploreML - Beginner",
+      "issuing_organization": "Google",
+      "issue_date": {
+        "month": "October",
+        "year": "2019"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": null,
+      "skills": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "ExploreML - Intermediate",
+      "issuing_organization": "Google",
+      "issue_date": {
+        "month": "October",
+        "year": "2019"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": null,
+      "skills": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "MTA: Security Fundamentals - Certified 2017",
+      "issuing_organization": "Microsoft",
+      "issue_date": {
+        "month": "January",
+        "year": "2017"
+      },
+      "expiration_date": {
+        "month": null,
+        "year": null
+      },
+      "credential_id": null,
+      "credential_url": "https://www.youracclaim.com/badges/9fc9c27f-8d41-4369-9468-4e665d0dae96?source=linked_in_profile",
+      "skills": [
+        "Cyber-Security",
+        "Computer Networks"
+      ]
+    }
+  ],
   "techStack": {
     "sections": [
       {
