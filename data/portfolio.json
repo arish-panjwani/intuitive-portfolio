@@ -301,7 +301,7 @@
         "month": null,
         "year": null
       },
-      "credential_id": "19a23c942939985edf2effc5b2253edabf97a42a9dd79100e457387ffdf9f252",
+      "credential_id": null,
       "credential_url": "https://www.linkedin.com/learning/certificates/19a23c942939985edf2effc5b2253edabf97a42a9dd79100e457387ffdf9f252?u=2148769",
       "skills": [
         "Vector Databases",
@@ -320,7 +320,7 @@
         "month": null,
         "year": null
       },
-      "credential_id": "d06c5f451d80a26bc505346a95709117f3303e7c9ec6b7494ce490f17e98240a",
+      "credential_id": null,
       "credential_url": "https://www.linkedin.com/learning/certificates/d06c5f451d80a26bc505346a95709117f3303e7c9ec6b7494ce490f17e98240a?u=2148769",
       "skills": [
         "AI Agents",
@@ -338,7 +338,7 @@
         "month": null,
         "year": null
       },
-      "credential_id": "197bd5fbd772fadcadecb112c206f8beb0de1eedc1edf7e61e4b62ed5f8615b5",
+      "credential_id": null,
       "credential_url": "https://www.linkedin.com/learning/certificates/197bd5fbd772fadcadecb112c206f8beb0de1eedc1edf7e61e4b62ed5f8615b5?u=2148769",
       "skills": [
         "AIOps"
@@ -355,7 +355,7 @@
         "month": null,
         "year": null
       },
-      "credential_id": "09322fb5109079b450987712963107a5d295bec2172ad6acbe49169644c33156",
+      "credential_id": null,
       "credential_url": "https://www.linkedin.com/learning/certificates/09322fb5109079b450987712963107a5d295bec2172ad6acbe49169644c33156?u=2148769",
       "skills": [
         "Retrieval-Augmented Generation (RAG)"
@@ -372,7 +372,7 @@
         "month": null,
         "year": null
       },
-      "credential_id": "184e0a09ed09a65a6d318157e38312d32782afe1bea843c9ac02748decf38799",
+      "credential_id": null,
       "credential_url": "http://linkedin.com/learning/certificates/184e0a09ed09a65a6d318157e38312d32782afe1bea843c9ac02748decf38799?u=2148769",
       "skills": [
         "Financial Forecasting"
