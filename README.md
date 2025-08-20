@@ -4,6 +4,8 @@
 
 A stunning, responsive portfolio website built with Next.js, TypeScript, and Framer Motion. Features dark mode, performance optimization, and an AI-powered chatbot that knows everything about you!
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd7afa5f-ee85-49ac-8a12-7eee74035078/deploy-status)](https://app.netlify.com/projects/arishpanjwani/deploys)
+
 ---
 
 ## ✨ Features
